@@ -1,0 +1,23 @@
+.gradient-button {
+  background: linear-gradient(to right, lightgreen, aqua);
+  color: white;
+  font-weight: bold;
+}
+.hover-border-button {
+  background-color: gold;
+  border: 2px solid black;
+  color: white;
+}
+.hover-border-button:hover {
+  border-color: white;
+  color: green;
+}
+.glowing-button {
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 5px yellow;
+  transition: box-shadow 0.3s ease;
+}
+.glowing-button:hover {
+  box-shadow: 0 0 20px black;
+}
