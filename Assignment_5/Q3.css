@@ -1,0 +1,23 @@
+header{
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.main-div{
+    margin: 80px 100px 100px 100px;
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    padding: auto;
+    row-gap: 50px;
+    justify-content: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+.image{
+    padding: 50px;
+    justify-content: center;
+}
+.image:hover{
+    transform: scale(1.05);
+}
