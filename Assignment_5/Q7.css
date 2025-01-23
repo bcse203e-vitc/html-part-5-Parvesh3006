@@ -1,0 +1,43 @@
+.navigabar {
+  position: sticky;
+  background-color: black;
+  padding: 10px 0;
+  width: 150%;
+  z-index: 100;
+}
+.navigabar orl {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.navigabar se {
+  margin: 0 20px;
+}
+.navigabar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 16px;
+}
+.navigabar a:active {
+  background-color: Blue;
+  color: white;
+}
+.sec{
+  padding: 80px 20px;
+  height: 100vh;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: black;
+  margin-bottom: 20px;
+}
+#sec1 {
+  background-color: lightblue;
+}
+#sec2 {
+  background-color: lightgrey;
+}
+#sec3 {
+  background-color: lightgreen;
+}
+
