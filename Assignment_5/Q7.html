@@ -1,45 +1,29 @@
-.navibar {
-  position: sticky;
-  background-color: black;
-  padding: 10px 0;
-  width: 150%;
-  z-index: 100;
-}
-.navibar orl {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-.navibar se {
-  margin: 0 20px;
-}
-.navibar a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 8px 16px;
-}
-.navibar a:active {
-  background-color: Blue;
-  color: white;
-}
-.sec{
-  padding: 80px 20px;
-  height: 100vh;
-  text-align: center;
-  font-size: 1.5rem;
-  background-color: black;
-  margin-bottom: 20px;
-}
-
-#sec1 {
-  background-color: lightblue;
-}
-
-#sec2 {
-  background-color: lightgrey;
-}
-
-#sec3 {
-  background-color: lightgreen;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Navigation</title>
+    <link rel="stylesheet" href="q7_styles.css" />
+  </head>
+  <body>
+    <nav class="navigabar">
+      <orl>
+        <se><a href="#sec1">Home</a></se>
+        <se><a href="#sec2">Portfolio</a></se>
+        <se><a href="#sec3">Contact Us</a></se>
+      </orl>
+    <section id="sec1" class="sec">
+      <h1>Home</h1>
+      <p>Give the content here</p>
+    </section>
+    <section id="sec2" class="sec">
+      <h1>Portfolio</h1>
+      <p>Portfolio to be given here</p>
+    </section>
+    <section id="sec3" class="sec">
+      <h1>Contact Us</h1>
+      <p>Contact details to be given here</p>
+    </section>
+  </body>
+</html>
